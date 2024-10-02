@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.GUI.SimulationFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="2" vgap="2">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="64fd5" binding="inputPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14471636"/>
+          <enabled value="false"/>
+          <font name="DialogInput" style="0"/>
+          <foreground color="-13293263"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="b6d76" class="javax.swing.JComboBox" binding="selectionPolicy">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-13356491"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+            </properties>
+          </component>
+          <component id="92c50" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Sim. Duration"/>
+            </properties>
+          </component>
+          <component id="a48aa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Max serving time"/>
+            </properties>
+          </component>
+          <component id="a4bb0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Number of servers"/>
+            </properties>
+          </component>
+          <component id="81213" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Number of clients"/>
+            </properties>
+          </component>
+          <component id="38646" class="javax.swing.JButton" binding="startButton" default-binding="true">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13356491"/>
+              <font name="DialogInput"/>
+              <foreground color="-12094916"/>
+              <text value="Start/Restart"/>
+            </properties>
+          </component>
+          <component id="66eb6" class="javax.swing.JSpinner" binding="timeLimit">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159621"/>
+            </properties>
+          </component>
+          <component id="c1342" class="javax.swing.JSpinner" binding="maxProcessTime">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159621"/>
+            </properties>
+          </component>
+          <component id="9a2b8" class="javax.swing.JSpinner" binding="nbOfServers">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159621"/>
+            </properties>
+          </component>
+          <component id="909a1" class="javax.swing.JSpinner" binding="nbOfClients">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159621"/>
+            </properties>
+          </component>
+          <component id="e99c7" class="javax.swing.JLabel" binding="minArrivalTimeL">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Min arrival time"/>
+            </properties>
+          </component>
+          <component id="261f8" class="javax.swing.JLabel" binding="maxArrivalTimeL">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Max arrival time"/>
+            </properties>
+          </component>
+          <component id="2b363" class="javax.swing.JSpinner" binding="minArrivalTime">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+            </properties>
+          </component>
+          <component id="6bf4a" class="javax.swing.JSpinner" binding="maxArrivalTime">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+            </properties>
+          </component>
+          <component id="b70d8" class="javax.swing.JSpinner" binding="minProcessTime">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-8159621"/>
+            </properties>
+          </component>
+          <component id="d6b1d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput"/>
+              <foreground color="-8159618"/>
+              <text value="Min serving time"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="48bb9" binding="outputPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-13356491"/>
+          <enabled value="true"/>
+          <font name="DialogInput"/>
+          <foreground color="-10189460"/>
+        </properties>
+        <border type="etched" title="QueueSim" title-justification="2">
+          <font name="DialogInput"/>
+          <title-color color="-12094916"/>
+          <color color="-14544343"/>
+        </border>
+        <children>
+          <component id="bc8e0" class="javax.swing.JTextArea" binding="outputArea">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-15066339"/>
+              <enabled value="true"/>
+              <font name="DialogInput"/>
+              <foreground color="-12094916"/>
+              <lineWrap value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,127 @@
+Time: 0
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 1
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 2
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 3
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 4
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 5
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 6
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 7
+Waiting clients: [(2, 8, 4), (1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 8
+Waiting clients: [(1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: [(2, 8, 4)];
+Q2 :: empty
+Time: 9
+Waiting clients: [(1, 10, 2), (0, 26, 2), (3, 28, 2)]
+Q1 :: [(2, 8, 3)];
+Q2 :: empty
+Time: 10
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: [(2, 8, 2)];
+Q2 :: [(1, 10, 2)];
+Time: 11
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: [(2, 8, 1)];
+Q2 :: [(1, 10, 1)];
+Time: 12
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: [(2, 8, 1)];
+Q2 :: [(1, 10, 1)];
+Time: 13
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 14
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 15
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 16
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 17
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 18
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 19
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 20
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 21
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 22
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 23
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 24
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 25
+Waiting clients: [(0, 26, 2), (3, 28, 2)]
+Q1 :: empty
+Q2 :: empty
+Time: 26
+Waiting clients: [(3, 28, 2)]
+Q1 :: [(0, 26, 2)];
+Q2 :: empty
+Time: 27
+Waiting clients: [(3, 28, 2)]
+Q1 :: [(0, 26, 1)];
+Q2 :: empty
+Time: 28
+Waiting clients: []
+Q1 :: empty
+Q2 :: [(3, 28, 2)];
+Time: 29
+Waiting clients: []
+Q1 :: empty
+Q2 :: [(3, 28, 1)];
+Time: 30
+Waiting clients: []
+Q1 :: empty
+Q2 :: empty
+Average waiting time: 0.16
+Average service time: 2.50
+Peak hour: 10-11
